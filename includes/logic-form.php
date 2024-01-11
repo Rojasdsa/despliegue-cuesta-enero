@@ -5,8 +5,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $comentario = htmlspecialchars($_POST['comentario']) ?? '';
 
     $comentariosModelo?->agregarComentario($nombre, $comentario);
+
+    // Redirige para evitar reenviar el formulario al recargar
+    header('Location: ' . $_SERVER['PHP_SELF']);
+    exit;
 }
 
 // Obtener y mostrar comentarios
 $comentarios = $comentariosModelo?->obtenerComentarios();
-?>
