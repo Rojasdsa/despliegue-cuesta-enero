@@ -15,14 +15,32 @@
 
 
 <body>
-    <header class="container-fluid justify-content-between header-title">
+    <header class="container-fluid text-center header-title">
         <a href="https://github.com/Rojasdsa/despliegue-cuesta-enero" target="_blank">
             <img id="gitLogo" class="img-logo py-3 agitacion" src="resources/img/gitred.png" alt="git logo">
         </a>
-        <h1 class="py-3 px-3 mb-0">
-            <a class="text-decoration-none" href="index.php">
-                Despliegue: Cuesta de Enero
-            </a>
-        </h1>
-        <img class="img-logo py-3" src="resources/img/docker.png" alt="docker logo">
+
+        <div class="container-fluid py-3 px-3 mb-0">
+            <h1 class="">
+                <a class="text-decoration-none" href="index.php">
+                    <p class="container-fluid">Despliegue: Cuesta de Enero</p>
+                </a>
+            </h1>
+        </div>
+
+    </header>
+
+    <header class="">
+        <a href="https://github.com/Rojasdsa/despliegue-cuesta-enero" target="_blank">
+            <img id="gitLogo" class="img-logo agitacion" src="resources/img/gitred.png" alt="git logo">
+        </a>
+
+        <div class="text-center">
+            <h1 class="">
+                <a href="index.php" class="text-decoration-none">
+                    Despliegue: Cuesta de Enero
+                </a>
+            </h1>
+        </div>
+
     </header>

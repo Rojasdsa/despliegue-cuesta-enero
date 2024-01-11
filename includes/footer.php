@@ -1,7 +1,12 @@
-<footer class="container-fluid footer-title">
-        <p class="py-3 mb-0 mx-0 text-center"> 
-        ®2024 Cuesta de Enero(Despliegue), Fernando A. Rojas del Marco.
+<footer class="">
+    <div class="text-center py-3">
+        <p class="p1">
+            ®2024 Cuesta de Enero (Despliegue)
         </p>
+        <p class="p2">
+            Fernando A. Rojas del Marco, 2º DAW
+        </p>
+    </div>
 </footer>
 
 </body>
