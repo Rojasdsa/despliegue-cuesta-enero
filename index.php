@@ -40,7 +40,7 @@ $comentariosModelo = new ComentariosModelo($conexion); ?>
     </div>
 
     <!-- Sección para mostrar comentarios -->
-    <div class="pt-2 pb-2 container border rounded-3 bg-dark">
+    <div class="pt-2 pb-2 mb-3 container border rounded-3 bg-dark">
         <h3 class="text-center text-white">Tablón de mensajes</h3>
         <?php foreach ($comentarios as $comentario) : ?>
             <div class="card mb-1">
