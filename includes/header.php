@@ -21,7 +21,7 @@
             <img id="gitLogo" class="img-logo agitacion" src="resources/img/gitred.png" alt="git logo">
         </a>
 
-        <h1 class="container mb-0">
+        <h1 class="container mb-0 mt-2">
             <a class="text-decoration-none header-title" href="index.php">
                 Despliegue: Cuesta de Enero
             </a>
