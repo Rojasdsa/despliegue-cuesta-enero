@@ -1,0 +1,21 @@
+# docker-compose.yml
+
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+  db:
+    image: mysql:8.0
+    container_name: mysql-container
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "YES"
+      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_DATABASE: tu_basededatos
+    ports:
+      - "3306:3306"
