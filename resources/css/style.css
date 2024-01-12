@@ -60,7 +60,10 @@ header:hover {
     }
 }
 
-
+/* Navbar */
+.custom-ul-nav li a {
+    color: #F7F7F7;
+}
 
 /*--/ MAIN /--*/
 main {
@@ -68,7 +71,30 @@ main {
     flex: 1;
 }
 
-/* Cards */
+/* Galeria */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.image {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.image > img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+/* Cards para comentarios */
 .custom-card-title {
     font-size: 16px;
 }
