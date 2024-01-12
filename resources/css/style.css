@@ -65,10 +65,23 @@ header:hover {
     color: #F7F7F7;
 }
 
+.custom-ul-nav li a:hover {
+    color: #6d5b5b;
+}
+
 /*--/ MAIN /--*/
 main {
     /* Permite que el contenido principal ocupe el espacio restante */
     flex: 1;
+}
+
+/* Lista software */
+.custom-hover:hover {
+    background-color: #f0d540f6;
+    color: #272727;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* Galeria */
