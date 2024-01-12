@@ -1,13 +1,13 @@
-<?php
+<?php 
 include 'modelo.php';
-
 // Crear una instancia del modelo para la conexión a la base de datos
 $conexionBD = new ConexionBD();
 $conexion = $conexionBD?->obtenerConexion();
-
-// Incluir el sistema de comentarios
 include 'comentarios.php';
-$comentariosModelo = new ComentariosModelo($conexion); ?>
+$comentariosModelo = new ComentariosModelo($conexion);
+include('includes/logic-form.php');
+
+?>
 
 
 <!-- Header que incluye desde el DOCTYPE hasta la etiqueta <header> -->
@@ -15,8 +15,6 @@ $comentariosModelo = new ComentariosModelo($conexion); ?>
 
 <main class="container-fluid">
 
-
-    <?php include('includes/logic-form.php'); ?>
 
 
     <!-- Formulario para ingresar comentarios -->
