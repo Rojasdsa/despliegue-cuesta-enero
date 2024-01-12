@@ -8,7 +8,7 @@ function agitarAutomaticamente() {
     gitLogo.classList.add('agitacion');
 
     // Elimina la clase de agitación después de la duración de la animación
-    setTimeout(function() {
+    setTimeout(function () {
         gitLogo.classList.remove('agitacion');
     }, 500);
 }
